@@ -21,7 +21,7 @@ namespace ASP.NET_MVC_5_Identity.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("IdentityDb", throwIfV1Schema: false)
         {
         }
 
